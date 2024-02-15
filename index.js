@@ -10,6 +10,7 @@ let { postRouter } = require("./routes/postRouter");
 // importing dotenv for accessing data from .env file
 require("dotenv").config()
 
+
 // importing cors
 let cors=require("cors");
 app.use(cors())
